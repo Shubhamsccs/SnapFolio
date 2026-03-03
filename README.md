@@ -19,6 +19,5 @@ Since this is a static website, you don't need any special server to run it.
 1. Clone this repository or download the ZIP file.
 2. Open the folder on your computer.
 3. Double-click the `SnapFolio.html` (or `index.html`) file to open it in any web browser.
-
 ---
-*Built by [Shubham S Chauhan](www.linkedin.com/in/shubham-s-chauhan-b19340370) | VIT-Pune*
+*Built by [Shubham S Chauhan](https://www.linkedin.com/in/shubham-s-chauhan-b19340370/) | VIT-Pune*
