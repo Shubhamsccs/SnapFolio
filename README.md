@@ -1,4 +1,4 @@
-# Snapfolio: Moments. Magnified. 📷
+# SnapFolio: Moments. Magnified. 📷
 
 A clean, visually focused landing page designed for a photography portfolio. I built this project during my early stages of learning web development to practice structuring web pages and styling with CSS.
 
