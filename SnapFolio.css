@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_box {
+  background: url(bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.main_box #check {
+  display: none;
+}
+
+.main_box .btn_one {
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.sidebar_menu {
+  position: fixed;
+  bottom: 2px;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 100vh;
+  width: 300px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  left: -300px;
+  transition: all 0.4s linear;
+}
+
+.sidebar_menu .logo a {
+  position: relative;
+  top: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  left: 8px;
+  width: 100%;
+}
+
+.sidebar_menu .logo {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  height: 50px;
+}
+
+.sidebar_menu .btn_two i {
+  position: relative;
+  color: white;
+  left: 265px;
+  bottom: 43px;
+  font-size: xx-large;
+  opacity: 0;
+}
+
+.sidebar_menu .menu {
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.menu li {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.menu li i {
+  font-size: 20px;
+  color: white;
+  padding-right: 5px;
+}
+
+.menu li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar_menu .social_media a i {
+  position: relative;
+  top: 140px;
+  left: 40px;
+  font-size: 30px;
+  color: white;
+  opacity: 0.4;
+  margin: 20px;
+}
+
+.sidebar_menu .menu li:hover {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar_menu .social_media a i:hover {
+  opacity: 0.8;
+  transform: scale(2);
+}
+
+.para {
+  transition: all 0.35s ease-in-out;
+  position: absolute;
+  width: 550px;
+  top: 160px;
+  left: 10px;
+}
+
+.para .main-para i {
+  padding-left: 10px;
+}
+
+.para .main-para {
+  color: rgba(230, 230, 230, 0.95);
+  position: relative;
+  font-size: 23px;
+  width: 550px;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  left: 35px;
+  line-height: 40px;
+}
+
+.para .sign-1 {
+  color: rgba(195, 160, 80, 1);
+  font-size: 30px;
+  position: relative;
+}
+
+.para .sign-2 {
+  color: rgba(195, 160, 80, 1);
+  font-size: 30px;
+  position: relative;
+}
+
+#check:checked~.sidebar_menu {
+  left: 0;
+}
+
+#check:checked~.btn_one i {
+  opacity: 0;
+}
+
+#check:checked~.sidebar_menu .btn_two i {
+  opacity: 1;
+}
+
+#check:checked~.para {
+  opacity: 0;
+}
